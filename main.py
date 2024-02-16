@@ -55,8 +55,6 @@ def run_script():
     button.click()
     time.sleep(5)
     driver.quit()
-
-
     
 # Repeat the code 10 times
 for _ in range(1024):
