@@ -22,7 +22,6 @@ def run_script():
     try:
         driver.get("https://github.com/johnsmith0212/johnsmith0212/edit/main/README.md")
 
-<<<<<<< HEAD
         wait = WebDriverWait(driver, 10)
         element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'span.ͼ7')))
 
@@ -67,17 +66,6 @@ def run_script():
     finally:
         driver.quit()
 
-=======
-    button = driver.find_element(By.CLASS_NAME, 'merge-box-button')
-    button.click()
-    time.sleep(1)
-    # Merge pull request
-    button = driver.find_element(By.CLASS_NAME, 'js-merge-commit-button')
-    button.click()
-    time.sleep(5)
-    driver.quit()
-    
->>>>>>> e7c4adf2a3df7c6791e1c2f0d129ed18e9141ab8
 # Repeat the code 10 times
 for _ in range(totalNum):
     run_script()
