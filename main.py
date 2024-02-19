@@ -14,7 +14,7 @@ chrome_options.add_argument('--disable-gpu')
 user_profile_path = 'C:/Users/Believe/AppData/Local/Google/Chrome/User Data/Profile 2'
 chrome_options.add_argument(f"user-data-dir={user_profile_path}")
 
-totalNum = 700
+totalNum = 900
 
 def run_script():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
