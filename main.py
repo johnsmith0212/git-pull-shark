@@ -66,6 +66,6 @@ def run_script():
     finally:
         driver.quit()
 
-# Repeat the code 10 times
+# Repeat the code 15 times
 for _ in range(totalNum):
     run_script()
